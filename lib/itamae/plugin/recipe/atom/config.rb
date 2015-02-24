@@ -9,7 +9,7 @@ ATOM_DIR = '~/.atom'
   from_config_file_path = node[:atom][:configs][v]
   next if from_config_file_path.nil?
 
-  config_file_name = v == 'snippets' ? "#{v}.css" : "#{v}.cson"
+  config_file_name = v == 'styles' ? "#{v}.less" : "#{v}.cson"
 
   execute "backup origin file #{config_file_name}" do
     command "cp #{ATOM_DIR}/#{config_file_name} #{ATOM_DIR}/#{config_file_name}.bk"

@@ -1,5 +1,3 @@
-require "itamae/plugin/recipe/atom/version"
-
 module Itamae
   module Plugin
     module Recipe

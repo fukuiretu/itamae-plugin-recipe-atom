@@ -11,7 +11,7 @@ ATOM_DIR = '~/.atom'
 
   config_file_name = v == 'snippets' ? "#{v}.css" : "#{v}.cson"
 
-  execute "backup origin file #{config_file}" do
+  execute "backup origin file #{config_file_name}" do
     command "cp #{ATOM_DIR}/#{config_file_name} #{ATOM_DIR}/#{config_file_name}.bk"
   end
 

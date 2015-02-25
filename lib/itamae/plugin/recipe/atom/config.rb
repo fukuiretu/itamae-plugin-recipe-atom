@@ -17,6 +17,6 @@ ATOM_DIR = '~/.atom'
 
 
   execute "setting #{config_file_name}" do
-    command "\cp -f #{from_config_file_path} #{ATOM_DIR}/#{config_file_name}"
+    command "cp -f #{from_config_file_path} #{ATOM_DIR}/#{config_file_name}"
   end
 end

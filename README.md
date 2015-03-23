@@ -1,5 +1,7 @@
 # itamae-plugin-recipe-atom
 
+[![Gem Version](https://badge.fury.io/rb/itamae-plugin-recipe-atom.svg)](http://badge.fury.io/rb/itamae-plugin-recipe-atom)
+
 Plugin to support the [Atom](https://atom.io/) for [Itamae](https://github.com/itamae-kitchen/itamae)
 
 

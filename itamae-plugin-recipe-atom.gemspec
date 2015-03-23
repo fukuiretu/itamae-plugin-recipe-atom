@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Itamae::Plugin::Recipe::Atom::VERSION
   spec.authors       = ["fukuiretu"]
   spec.email         = ["s0232101@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Plugin to support the Atom for Itamae}
+  spec.description   = %q{Plugin to support the Atom for Itamae}
+  spec.homepage      = "https://github.com/fukuiretu/itamae-plugin-recipe-atom"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
